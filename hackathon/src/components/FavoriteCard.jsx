@@ -1,21 +1,7 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import '../styled/Card.css';
 
-class Card extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isFavorite: false
-    }
-  }
-
-  handleChangeToFavorite = () => {
-    const { isFavorite } = this.state;
-    this.setState({ isFavorite: !isFavorite });
-  };
-
-  render() {
+function FavoriteCard () {
     return (
       <div class="flip-card">
         <div className='flip-card-inner'>
@@ -34,13 +20,6 @@ class Card extends Component {
         </div>
       </div>
     )
-  }
 }
 
-Card.propTypes = {
-  name: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  id: PropTypes.number.isRequired,
-};
-
-export default Card;
+export default FavoriteCard;
