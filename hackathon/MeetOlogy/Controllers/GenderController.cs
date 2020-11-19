@@ -11,5 +11,7 @@ namespace MeetOlogy.Controllers
     [ApiController]
     public class GenderController : ControllerBase
     {
+      
+       
     }
 }

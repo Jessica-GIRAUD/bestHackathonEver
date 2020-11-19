@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lyung\\Desktop\\Hakaton\\MeetOlogy\\MeetOlogy.csproj": {}
+    "C:\\Users\\lyung\\Desktop\\bestHackathonEver\\hackathon\\MeetOlogy\\MeetOlogy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lyung\\Desktop\\Hakaton\\MeetOlogy\\MeetOlogy.csproj": {
+    "C:\\Users\\lyung\\Desktop\\bestHackathonEver\\hackathon\\MeetOlogy\\MeetOlogy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lyung\\Desktop\\Hakaton\\MeetOlogy\\MeetOlogy.csproj",
+        "projectUniqueName": "C:\\Users\\lyung\\Desktop\\bestHackathonEver\\hackathon\\MeetOlogy\\MeetOlogy.csproj",
         "projectName": "MeetOlogy",
-        "projectPath": "C:\\Users\\lyung\\Desktop\\Hakaton\\MeetOlogy\\MeetOlogy.csproj",
+        "projectPath": "C:\\Users\\lyung\\Desktop\\bestHackathonEver\\hackathon\\MeetOlogy\\MeetOlogy.csproj",
         "packagesPath": "C:\\Users\\lyung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lyung\\Desktop\\Hakaton\\MeetOlogy\\obj\\",
+        "outputPath": "C:\\Users\\lyung\\Desktop\\bestHackathonEver\\hackathon\\MeetOlogy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lyung\\AppData\\Roaming\\NuGet\\NuGet.Config",

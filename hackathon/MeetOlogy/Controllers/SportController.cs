@@ -7,9 +7,21 @@ using System.Threading.Tasks;
 
 namespace MeetOlogy.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("sport")]
     [ApiController]
     public class SportController : ControllerBase
     {
+       public IEnumerable<Sport> get()
+        {
+            return new List<Sport>
+            {
+                new Sport { sportName ="Barathon,"},
+                new Sport { sportName ="Hunt"},
+                new Sport { sportName ="Quidditch"}, 
+            };
+        }
+        
+
+        
     }
 }
