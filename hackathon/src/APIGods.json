@@ -1,8 +1,8 @@
-[{
+[
+  {
     "Name": "Dionysus",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "63",
     "OthersItems": {
       "AstroSign": "Barrel",
@@ -16,14 +16,13 @@
       "Phone": "033-789-457",
       "Address": "46 St. Petrus, Olympus",
       "InstaGod": "@DionyWine"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Aphrodite",
     "Gender": "Female",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
-    "Age": "Don't ask",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Age": "25",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
       "Sports": "Aquagym",
@@ -36,13 +35,12 @@
       "Phone": "000-000-001",
       "Address": "69 Cuning Street, Olympus",
       "InstaGod": "@aphrodite4ever"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Apollo",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "25",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
@@ -56,14 +54,13 @@
       "Phone": "025-456-124",
       "Address": "3 Gloria bvd, Olympus",
       "InstaGod": "@BGofOlympia"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Ares",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
-    "Age": "1336",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Age": "35",
     "OthersItems": {
       "AstroSign": "bloodshed",
       "Sports": "Hunting",
@@ -76,13 +73,12 @@
       "Phone": "046-368-124",
       "Address": "1 road to Hell, Hell",
       "InstaGod": "@ToOldToDieYoungNow"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Atémis",
     "Gender": "Female",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "32",
     "OthersItems": {
       "AstroSign": "Archery",
@@ -96,13 +92,12 @@
       "Phone": "078-365-194",
       "Address": "15 Lilac St., Olympus",
       "InstaGod": "@oklm"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Apollo",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "20",
     "OthersItems": {
       "AstroSign": "Snowball",
@@ -116,13 +111,12 @@
       "Phone": "026-364-348",
       "Address": "26 Pacific road, Olympus",
       "InstaGod": "@PoloLeFouFou"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Prometheus",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "36",
     "OthersItems": {
       "AstroSign": "Colibry",
@@ -136,14 +130,13 @@
       "Phone": "098-354-786",
       "Address": "1 road to Hell, Olympus",
       "InstaGod": "@HighWayToHell"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Zeus",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
-    "Age": "369874521",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Age": "99",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
       "Sports": "Hunting",
@@ -151,18 +144,24 @@
       "Passion": ["Cooking", "Swimming", "Loving"]
     },
     "RegisterSince": "01/01/0001",
-    "PeopleLiked": ["Aphrodite", "Athena", "Artémis", "Poseïdon", "Ligée", "Marsyas"],
+    "PeopleLiked": [
+      "Aphrodite",
+      "Athena",
+      "Artémis",
+      "Poseïdon",
+      "Ligée",
+      "Marsyas"
+    ],
     "Contact": {
       "Phone": "068-796-364",
       "Address": "1 Cloud, Olympus",
       "InstaGod": "@YayMe"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Athena",
     "Gender": "Female",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "35",
     "OthersItems": {
       "AstroSign": "Colibry",
@@ -176,13 +175,12 @@
       "Phone": "034-820-734",
       "Address": "15 road to Paradise, Olympus",
       "InstaGod": "@ThugLife"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Demeter",
     "Gender": "Female",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "19",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
@@ -196,13 +194,12 @@
       "Phone": "025-649-123",
       "Address": "18 road to Paradise, Olympus",
       "InstaGod": "@DemeterOmeter"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Eros",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "35",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
@@ -211,19 +208,28 @@
       "Passion": ["Love"]
     },
     "RegisterSince": "15/08/-3254",
-    "PeopleLiked": ["Aphrodite", "Athena", "Artémis", "Demeter", "Zeus", "Oceanos", "Gaïa", "Hermès", "Hadès"],
+    "PeopleLiked": [
+      "Aphrodite",
+      "Athena",
+      "Artémis",
+      "Demeter",
+      "Zeus",
+      "Oceanos",
+      "Gaïa",
+      "Hermès",
+      "Hadès"
+    ],
     "Contact": {
       "Phone": "063-401-753",
       "Address": "63 Love lane, Olympus",
       "InstaGod": "@StairWayToHeaven"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Gaïa",
     "Gender": "Female",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
-    "Age": "69874532104898965243",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Age": "95",
     "OthersItems": {
       "AstroSign": "Barrel",
       "Sports": "Quidditch",
@@ -236,13 +242,12 @@
       "Phone": "067-667-667",
       "Address": "3 Creation Bvd, Olympus",
       "InstaGod": "@GaiaRuuules"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Hermès",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "64",
     "OthersItems": {
       "AstroSign": "Pegasus",
@@ -251,18 +256,17 @@
       "Passion": ["Cooking", "Swimming"]
     },
     "RegisterSince": "17/04/-1267",
-    "PeopleLiked": ["Aphrodite", "Ligée", "Artémis","Ocypète"],
+    "PeopleLiked": ["Aphrodite", "Ligée", "Artémis", "Ocypète"],
     "Contact": {
       "Phone": "098-354-786",
       "Address": "654, Olympus",
       "InstaGod": "@ToInfinityAndBeyond"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Morphée",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "42",
     "OthersItems": {
       "AstroSign": "Snowball",
@@ -276,13 +280,12 @@
       "Phone": "002-365-745",
       "Address": "45 Lilac bvd, Olympus",
       "InstaGod": "@Shhhhh"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Poseïdon",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "58",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
@@ -296,13 +299,12 @@
       "Phone": "074-666-124",
       "Address": "4 Wet Street, Olympus",
       "InstaGod": "@YellowSubmarine"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Zephyr",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "36",
     "OthersItems": {
       "AstroSign": "Colibry",
@@ -316,13 +318,12 @@
       "Phone": "012-687-490",
       "Address": "1 Nowhere Street, Olympus",
       "InstaGod": "@ZephyrHot"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Perséphone",
     "Gender": "Female",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "24",
     "OthersItems": {
       "AstroSign": "Colibry",
@@ -336,13 +337,12 @@
       "Phone": "064-942-014",
       "Address": "36 Cloud bvd, Olympus",
       "InstaGod": "@PerSonPhone"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Eurytion",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "31",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
@@ -356,13 +356,12 @@
       "Phone": "057-654-456",
       "Address": "1 Lilac bvd, Olympus",
       "InstaGod": "@EurytionTheFabulous"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Centauros",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "64",
     "OthersItems": {
       "AstroSign": "Pegasus",
@@ -376,13 +375,12 @@
       "Phone": "025-743-631",
       "Address": "1 Cloud Street, Olympus",
       "InstaGod": "@DarkHorse"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Scylla",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "51",
     "OthersItems": {
       "AstroSign": "Barrell",
@@ -396,13 +394,12 @@
       "Phone": "065-742-635",
       "Address": "158 Lilac bvd, Olympus",
       "InstaGod": "@UnderPressure"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Brontès",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "32",
     "OthersItems": {
       "AstroSign": "Colibry",
@@ -416,13 +413,12 @@
       "Phone": "098-354-786",
       "Address": "1 road to Cloud, Olympus",
       "InstaGod": "@AnneBrontès"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Ocypète",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "45",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
@@ -436,13 +432,12 @@
       "Phone": "098-354-786",
       "Address": "1 Lilac bvd, Olympus",
       "InstaGod": "@Ocyfart"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Marsyas",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "58",
     "OthersItems": {
       "AstroSign": "Pegasus",
@@ -456,13 +451,12 @@
       "Phone": "056-781-364",
       "Address": "16 Lilac bvd, Olympus",
       "InstaGod": "@Marsyas"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Ligée",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "27",
     "OthersItems": {
       "AstroSign": "Archery",
@@ -476,14 +470,13 @@
       "Phone": "028-364-186",
       "Address": "1Cloud Street, Olympus",
       "InstaGod": "@Lihetyfh"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Hadès",
     "Gender": "Male",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
-    "Age": "258",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Age": "90",
     "OthersItems": {
       "AstroSign": "Snowball",
       "Sports": "Football",
@@ -496,13 +489,12 @@
       "Phone": "074-454-386",
       "Address": "22 Lilac bvd, Olympus",
       "InstaGod": "@HighWayToHome"
-    }   
-},
-{
+    }
+  },
+  {
     "Name": "Oceanos",
     "Gender": "Other",
-    "Photo":
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
     "Age": "22",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
@@ -516,6 +508,6 @@
       "Phone": "098-354-786",
       "Address": "1 road to Hell, Olympus",
       "InstaGod": "@pmzudtgfkz"
-    }   
-}
+    }
+  }
 ]
