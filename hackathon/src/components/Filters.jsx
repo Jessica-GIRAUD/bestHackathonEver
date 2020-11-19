@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import FilterAge from "./FilterAge";
+import FilterTag from "./FilterTag";
 
 const Data = [
   {
@@ -69,7 +71,11 @@ class Filters extends Component {
     super(props);
     this.state = {
       gender: "All",
+      ageRange: [0, 100],
+      tag: "",
+      tagArr: [],
     };
+    this.onTypeTag = this.onTypeTag.bind(this);
   }
 
   onClickChange = (e) => {
@@ -79,10 +85,23 @@ class Filters extends Component {
     });
   };
 
+  onClickAge = (e, newValue) => {
+    this.setState({
+      ageRange: newValue,
+    });
+  };
+  onTypeTag = (newTag) => {
+    const tagArr = this.state.tagArr;
+    tagArr.push(newTag);
+    this.setState({ tagArr });
+  };
+
   render() {
-    const { newGender } = this.state;
+    const { newGender, tag, tagArr } = this.state;
     return (
       <div>
+        {console.log(tagArr)}
+        {console.log(tag)}
         <select
           value={newGender}
           onChange={this.onClickChange}
@@ -94,16 +113,39 @@ class Filters extends Component {
           <option value="Female">Female</option>
           <option value="Animal">Animal</option>
         </select>
+        <FilterAge onChange={this.onClickAge} />
+        <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
         <div>
           {Data.filter(
             (genre) =>
               genre.Gender === this.state.gender || this.state.gender === "All"
-          ).map((gode) => (
-            <div>
-              <img src={gode.Photo} alt={gode.Name}></img>
-              <h1>{gode.Name}</h1>
-            </div>
-          ))}
+          )
+            .filter(
+              (item) =>
+                this.state.ageRange[0] < item.Age &&
+                item.Age < this.state.ageRange[1]
+            )
+            .filter(
+              (item) =>
+                tagArr.length === 0 ||
+                tagArr.includes(item.OthersItems.AstroSign) ||
+                tagArr.includes(item.OthersItems.Sports) ||
+                tagArr.includes(item.OthersItems.GodsType) ||
+                tagArr.filter((value) =>
+                  item.OthersItems.Passion.includes(value)
+                ).length > 0
+              //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
+            )
+            .map((gode) => (
+              <div>
+                <img
+                  style={{ width: "25%" }}
+                  src={gode.Photo}
+                  alt={gode.Name}
+                ></img>
+                <h1>{gode.Name}</h1>
+              </div>
+            ))}
         </div>
       </div>
     );
