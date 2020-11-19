@@ -1,25 +1,75 @@
-.godImage {
-  margin-top: 20px;
+/*CSS for Main Card */
+
+.godContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 300px;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background-color: #bbb;;
+  margin: 20px;
+}
+
+.godImage {
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 10px;
 }
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .name {
-  text-align: center;
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
+
+.likeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px;
+}
+
+.hr {
+  width: 100%;
+}
+
+.favorite {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+.notFavorite {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+/*CSS for Favorite Card */
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 400px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -27,7 +77,6 @@
 .flip-card-inner {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 100%;
@@ -47,7 +96,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 100%;
@@ -64,7 +113,7 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgb(122, 127, 133);
   color: white;
   transform: rotateY(180deg);
 }

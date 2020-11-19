@@ -1,25 +1,37 @@
-import React from "react";
+import React, { Component } from "react";
 import '../styled/Card.css';
 
-function FavoriteCard () {
+class FavoriteCard extends Component {
+  render() {
+    const { godsFav } = this.props;
     return (
-      <div class="flip-card">
-        <div className='flip-card-inner'>
-          <div class="flip-card-front">
-            <img src='https://www.flaticon.com/svg/static/icons/svg/739/739249.svg' alt='name' className='godImage' />
-            <h1 className='name'>Name</h1>
-          </div>
-          <div class="flip-card-back">
-            <h1>Name : </h1>
-            <p>Age :</p>
-            <p>Poids :</p>
-            <p>Taille :</p>
-            <p>Hobbies :</p>
-            <p>Signe Astro :</p>
+      <div>
+        <h2>Favorite</h2>
+        {godsFav.map(god => (
+        <div className="flip-card" >
+          <div className='flip-card-inner'>
+            <div className="flip-card-front">
+              <img src={god.photo} alt='name' className='godImage' />
+              <h1 className='name'>{god.name}</h1>
+            </div>
+            <div className="flip-card-back">
+              <h2>{god.name}</h2>
+              <p>Age : {god.age}</p>
+              <p>Astro Sign : {god.stroSign} </p>
+              <p>Address : {god.address}</p>
+              <p>Phone : {god.phone}</p>
+              <p>Instagram : {god.instaGod}</p>
+              <p>Hobbies : {god.passion}</p>
+              <button onClick={() => this.props.remove(god.id)}>
+                Delete from Favorite
+          </button>
+            </div>
           </div>
         </div>
+    ))};
       </div>
     )
+  }
 }
 
 export default FavoriteCard;
