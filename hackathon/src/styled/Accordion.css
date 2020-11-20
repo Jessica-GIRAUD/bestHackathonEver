@@ -37,7 +37,7 @@
 }
 
 .toggle:checked + .title + .content {
-  max-height: 500px;
+  max-height: 00px;
 }
 .toggle:checked + .title:before {
   -webkit-transform: rotate(90deg) !important;

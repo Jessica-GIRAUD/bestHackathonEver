@@ -51,24 +51,6 @@
   width: 100%;
 }
 
-.favorite {
-  width: 20px;
-  height: 20px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg");
-  background-size: 100%;
-  align-self: flex-start;
-  background-repeat: no-repeat;
-}
-
-.notFavorite {
-  width: 20px;
-  height: 20px;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg");
-  background-size: 100%;
-  align-self: flex-start;
-  background-repeat: no-repeat;
-}
-
 /*CSS for Favorite Card */
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */

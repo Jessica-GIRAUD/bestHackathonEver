@@ -6,17 +6,14 @@ import Like from "../img/Like.png";
 import Dislike from "../img/Dislike.png";
 import '../styled/Card.css';
 import '../styled/Accordion.css';
-import styled from "styled-components";
-
-const ImgDislike = styled.img`
-  width: 3em;
-`;
+import Data from "../APIGods.json";
 
 class GodCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isFavorite: false
+      isFavorite: false,
+      data: {Data}
     }
   }
 
@@ -26,7 +23,7 @@ class GodCard extends Component {
   }
 
   render() {
-    const { god, add } = this.props;
+    const { god, add, removeGod } = this.props;
     const {isFavorite} = this.state;
     return (
       <div>
@@ -42,12 +39,14 @@ class GodCard extends Component {
                 <img className={isFavorite ? 'like' : 'dislike'} src={Like} alt="like" onClick={() => add(god.Key)}/>
               </div>
               <div>
-                <img className='dislike' src={Dislike} alt="dislike"/></div>
+                <img className='dislike' src={Dislike} alt="dislike" onClick={() => removeGod(god.Key)}/>
+              </div>
             </div>
 
             <div className="accordion">
               <input type="checkbox" id="god-options" className="toggle" />
-              <label className="title" htmlFor="god-options"> blabla
+              <label className="title" htmlFor="god-options"> 
+                <span>&#9432;</span>
               </label>
               <div className="content">
                 <div>
@@ -58,6 +57,7 @@ class GodCard extends Component {
                 </div>
               </div>
             </div>
+            
           </div> 
       </div>
     )
