@@ -2,12 +2,9 @@ import React, { Component } from "react";
 import Data from "../APIGods.json";
 import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
-<<<<<<< HEAD
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
 import Carousell from "./Carousell";
-=======
->>>>>>> 0f64cd162d266111fcbb98257997789770972654
 
 class Filters extends Component {
   constructor(props) {
