@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 /* import PropTypes from "prop-types"; */
-import '../styled/Card.css';
-import '../styled/Accordion.css';
+import "../styled/Card.css";
+import "../styled/Accordion.css";
 import Like from "../img/Like.png";
 import Dislike from "../img/Dislike.png";
-import '../styled/Card.css';
 import '../styled/Flip.css';
 import '../styled/Accordion.css';
+
 import Data from "../APIGods.json";
 
 class GodCard extends Component {
@@ -14,14 +14,14 @@ class GodCard extends Component {
     super(props);
     this.state = {
       isFavorite: false,
-      data: { Data }
-    }
+      data: { Data },
+    };
   }
 
   handleFavorite = () => {
     const { isFavorite } = this.state;
-    this.setState({ isFavorite: !isFavorite })
-  }
+    this.setState({ isFavorite: !isFavorite });
+  };
 
   render() {
     const { god, add, removeGod } = this.props;
@@ -50,20 +50,9 @@ class GodCard extends Component {
             </div>
           </div>
         </div>
-      </div >
-    )
+      </div>
+    );
   }
 }
-
-/* GodCard.propTypes = {
-     name: PropTypes.string.isRequired,
-     photo: PropTypes.string.isRequired,
-     id: PropTypes.number.isRequired,
-     age: PropTypes.number.isRequired,
-     gender: PropTypes.string.isRequired,
-     sports: PropTypes.string.isRequired,
-     passion: PropTypes.string.isRequired,
-     add: PropTypes.func.isRequired,
-   }; */
 
 export default GodCard;
