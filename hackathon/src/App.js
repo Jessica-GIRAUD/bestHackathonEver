@@ -3,7 +3,7 @@ import './App.css';
 import Filters from './components/Filters'
 import Footer from './components/Footer';
 import RS from './components/RS';
-import Testit from './components/work';
+import Testit from './components/Testit';
 
 class App extends Component {
   render() {

@@ -28,7 +28,7 @@ class FavoriteCard extends Component {
             </div>
           </div>
         </div>
-    ))};
+    ))}
       </div>
     )
   }
