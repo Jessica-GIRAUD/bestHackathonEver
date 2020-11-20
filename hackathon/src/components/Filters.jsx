@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Data from "../APIGods.json";
 import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
-import Carousell from "./Carousell";
 
 class Filters extends Component {
   constructor(props) {
@@ -38,9 +37,6 @@ class Filters extends Component {
     const { newGender, tag, tagArr } = this.state;
     return (
       <div>
-        <Carousell />
-        {console.log(tagArr)}
-        {console.log(tag)}
         <select
           value={newGender}
           onChange={this.onClickChange}
