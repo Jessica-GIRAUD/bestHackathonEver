@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MeetOlogy.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("astrosign")]
     [ApiController]
     public class AstroSignsController : ControllerBase
     {

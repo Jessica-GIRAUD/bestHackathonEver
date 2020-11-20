@@ -3,16 +3,16 @@
     "Key": "1",
     "Name": "Dionysus",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/bgyg.jpg",
     "Age": "63",
     "OthersItems": {
       "AstroSign": "Barrel",
       "Sports": "Barathon",
       "GodsType": "Party",
-      "Passion": ["Wine", "Drinks", "Sex"]
+      "Passion": [ "Wine", "Drinks", "Sex" ]
     },
     "RegisterSince": "12/12/-1283",
-    "PeopleLiked": ["Athena", "Medusa", "Zeus"],
+    "PeopleLiked": [ "Athena", "Medusa", "Zeus" ],
     "Contact": {
       "Phone": "033-789-457",
       "Address": "46 St. Petrus, Olympus",
@@ -23,16 +23,16 @@
     "Key": "2",
     "Name": "Aphrodite",
     "Gender": "Female",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/an76.jpg",
     "Age": "25",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
       "Sports": "Aquagym",
       "GodsType": "Love",
-      "Passion": ["Wine", "Drinks", "Sex"]
+      "Passion": [ "Wine", "Drinks", "Sex" ]
     },
     "RegisterSince": "13/02/0",
-    "PeopleLiked": ["Apollo", "Prometheus", "Zeus"],
+    "PeopleLiked": [ "Apollo", "Prometheus", "Zeus" ],
     "Contact": {
       "Phone": "000-000-001",
       "Address": "69 Cuning Street, Olympus",
@@ -43,16 +43,16 @@
     "Key": "3",
     "Name": "Apollo",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/gpci.jpg",
     "Age": "25",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Self comtemplating", "Sex"]
+      "Passion": [ "Self comtemplating", "Sex" ]
     },
     "RegisterSince": "09/05/201",
-    "PeopleLiked": ["Athena", "Gaïa", "Ocypète"],
+    "PeopleLiked": [ "Athena", "Gaïa", "Ocypète" ],
     "Contact": {
       "Phone": "025-456-124",
       "Address": "3 Gloria bvd, Olympus",
@@ -63,16 +63,16 @@
     "Key": "4",
     "Name": "Ares",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/x9fl.jpg",
     "Age": "35",
     "OthersItems": {
       "AstroSign": "bloodshed",
       "Sports": "Hunting",
       "GodsType": "War",
-      "Passion": ["Torturing the poor souls that I encounter"]
+      "Passion": [ "Torturing the poor souls that I encounter" ]
     },
     "RegisterSince": "01/01/-1152",
-    "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
+    "PeopleLiked": [ "Aphrodite", "Athena", "Artémis" ],
     "Contact": {
       "Phone": "046-368-124",
       "Address": "1 road to Hell, Hell",
@@ -83,16 +83,16 @@
     "Key": "5",
     "Name": "Atémis",
     "Gender": "Female",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/t6ei.png",
     "Age": "32",
     "OthersItems": {
       "AstroSign": "Archery",
       "Sports": "Hunting",
       "GodsType": "Nature",
-      "Passion": ["Long ballads in the forest", "Hunting"]
+      "Passion": [ "Long ballads in the forest", "Hunting" ]
     },
     "RegisterSince": "01/01/-1152",
-    "PeopleLiked": ["Aphrodite", "Marsyas", "Eros"],
+    "PeopleLiked": [ "Aphrodite", "Marsyas", "Eros" ],
     "Contact": {
       "Phone": "078-365-194",
       "Address": "15 Lilac St., Olympus",
@@ -103,16 +103,16 @@
     "Key": "6",
     "Name": "Apollo",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/lrxl.jpg",
     "Age": "20",
     "OthersItems": {
       "AstroSign": "Snowball",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Party like you mean it !"]
+      "Passion": [ "Party like you mean it !" ]
     },
     "RegisterSince": "05/09/-1138",
-    "PeopleLiked": ["Prometheus", "Athena", "Artémis"],
+    "PeopleLiked": [ "Prometheus", "Athena", "Artémis" ],
     "Contact": {
       "Phone": "026-364-348",
       "Address": "26 Pacific road, Olympus",
@@ -123,16 +123,16 @@
     "Key": "7",
     "Name": "Prometheus",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/08uh.jpg",
     "Age": "36",
     "OthersItems": {
       "AstroSign": "Colibry",
       "Sports": "Hunting",
       "GodsType": "Fire",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": [ "Cooking", "Swimming" ]
     },
     "RegisterSince": "01/01/-2133",
-    "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
+    "PeopleLiked": [ "Aphrodite", "Athena", "Artémis" ],
     "Contact": {
       "Phone": "098-354-786",
       "Address": "1 road to Hell, Olympus",
@@ -143,13 +143,13 @@
     "Key": "8",
     "Name": "Zeus",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/vvir.jpg",
     "Age": "99",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
       "Sports": "Hunting",
       "GodsType": "Party",
-      "Passion": ["Cooking", "Swimming", "Loving"]
+      "Passion": [ "Cooking", "Swimming", "Loving" ]
     },
     "RegisterSince": "01/01/0001",
     "PeopleLiked": [
@@ -170,16 +170,16 @@
     "Key": "9",
     "Name": "Athena",
     "Gender": "Female",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/9gvb.jpg",
     "Age": "35",
     "OthersItems": {
       "AstroSign": "Colibry",
       "Sports": "Hunting",
       "GodsType": "Nature",
-      "Passion": ["Cooking", "Swimming", "Reading"]
+      "Passion": [ "Cooking", "Swimming", "Reading" ]
     },
     "RegisterSince": "03/11/-9999",
-    "PeopleLiked": ["Aphrodite", "Poseïdon", "Artémis", "Zeus"],
+    "PeopleLiked": [ "Aphrodite", "Poseïdon", "Artémis", "Zeus" ],
     "Contact": {
       "Phone": "034-820-734",
       "Address": "15 road to Paradise, Olympus",
@@ -190,16 +190,16 @@
     "Key": "10",
     "Name": "Demeter",
     "Gender": "Female",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/qexj.jpg",
     "Age": "19",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
       "Sports": "Quidditch",
       "GodsType": "Party",
-      "Passion": ["Animals", "Cooking"]
+      "Passion": [ "Animals", "Cooking" ]
     },
     "RegisterSince": "25/10/-1189",
-    "PeopleLiked": ["Aphrodite", "Gaïa", "Ligée"],
+    "PeopleLiked": [ "Aphrodite", "Gaïa", "Ligée" ],
     "Contact": {
       "Phone": "025-649-123",
       "Address": "18 road to Paradise, Olympus",
@@ -210,13 +210,13 @@
     "Key": "11",
     "Name": "Eros",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/vcly.jpg",
     "Age": "35",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
       "Sports": "Love",
       "GodsType": "Love",
-      "Passion": ["Love"]
+      "Passion": [ "Love" ]
     },
     "RegisterSince": "15/08/-3254",
     "PeopleLiked": [
@@ -240,16 +240,16 @@
     "Key": "12",
     "Name": "Gaïa",
     "Gender": "Female",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/kqgk.jpg",
     "Age": "95",
     "OthersItems": {
       "AstroSign": "Barrel",
       "Sports": "Quidditch",
       "GodsType": "Nature",
-      "Passion": ["Cooking", "Swimming", "Creating Life"]
+      "Passion": [ "Cooking", "Swimming", "Creating Life" ]
     },
     "RegisterSince": "00/00/0000",
-    "PeopleLiked": ["Poseïdon", "Zeus", "Eros"],
+    "PeopleLiked": [ "Poseïdon", "Zeus", "Eros" ],
     "Contact": {
       "Phone": "067-667-667",
       "Address": "3 Creation Bvd, Olympus",
@@ -260,16 +260,16 @@
     "Key": "13",
     "Name": "Hermès",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/zzs4.jpg",
     "Age": "64",
     "OthersItems": {
       "AstroSign": "Pegasus",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": [ "Cooking", "Swimming" ]
     },
     "RegisterSince": "17/04/-1267",
-    "PeopleLiked": ["Aphrodite", "Ligée", "Artémis", "Ocypète"],
+    "PeopleLiked": [ "Aphrodite", "Ligée", "Artémis", "Ocypète" ],
     "Contact": {
       "Phone": "098-354-786",
       "Address": "654, Olympus",
@@ -280,16 +280,16 @@
     "Key": "14",
     "Name": "Morphée",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/h3qr.jpg",
     "Age": "42",
     "OthersItems": {
       "AstroSign": "Snowball",
       "Sports": "Aquagym",
       "GodsType": "Justice",
-      "Passion": ["Sporting", "Cooking"]
+      "Passion": [ "Sporting", "Cooking" ]
     },
     "RegisterSince": "08/07/-1652",
-    "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
+    "PeopleLiked": [ "Aphrodite", "Athena", "Artémis" ],
     "Contact": {
       "Phone": "002-365-745",
       "Address": "45 Lilac bvd, Olympus",
@@ -300,16 +300,16 @@
     "Key": "15",
     "Name": "Poseïdon",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/hn88.jpg",
     "Age": "58",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Football", "Drink", "Sex"]
+      "Passion": [ "Football", "Drink", "Sex" ]
     },
     "RegisterSince": "19/06/-1187",
-    "PeopleLiked": ["Brontès", "Athena", "Eurytion", "Arès"],
+    "PeopleLiked": [ "Brontès", "Athena", "Eurytion", "Arès" ],
     "Contact": {
       "Phone": "074-666-124",
       "Address": "4 Wet Street, Olympus",
@@ -320,16 +320,16 @@
     "Key": "16",
     "Name": "Zephyr",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/p0v4.jpg",
     "Age": "36",
     "OthersItems": {
       "AstroSign": "Colibry",
       "Sports": "Quidditch",
       "GodsType": "Love",
-      "Passion": ["Exotic", "Animals"]
+      "Passion": [ "Exotic", "Animals" ]
     },
     "RegisterSince": "22/12/-4521",
-    "PeopleLiked": ["Hadès", "Eros", "Oceanos", "Dionysus"],
+    "PeopleLiked": [ "Hadès", "Eros", "Oceanos", "Dionysus" ],
     "Contact": {
       "Phone": "012-687-490",
       "Address": "1 Nowhere Street, Olympus",
@@ -340,16 +340,16 @@
     "Key": "17",
     "Name": "Perséphone",
     "Gender": "Female",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/eq1k.png",
     "Age": "24",
     "OthersItems": {
       "AstroSign": "Colibry",
       "Sports": "Football",
       "GodsType": "Love",
-      "Passion": ["Sex", "Swimming"]
+      "Passion": [ "Sex", "Swimming" ]
     },
     "RegisterSince": "16/10/-1420",
-    "PeopleLiked": ["Scylla", "Gaïa", "Eros"],
+    "PeopleLiked": [ "Scylla", "Gaïa", "Eros" ],
     "Contact": {
       "Phone": "064-942-014",
       "Address": "36 Cloud bvd, Olympus",
@@ -360,16 +360,16 @@
     "Key": "18",
     "Name": "Eurytion",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/10pr.jpg",
     "Age": "31",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
       "Sports": "Hunting",
       "GodsType": "Fire",
-      "Passion": ["Baking", "Animals"]
+      "Passion": [ "Baking", "Animals" ]
     },
     "RegisterSince": "05/08/-1528",
-    "PeopleLiked": ["Aphrodite", "Ocypète", "Prometheus"],
+    "PeopleLiked": [ "Aphrodite", "Ocypète", "Prometheus" ],
     "Contact": {
       "Phone": "057-654-456",
       "Address": "1 Lilac bvd, Olympus",
@@ -380,16 +380,16 @@
     "Key": "19",
     "Name": "Centauros",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/4z29.jpg",
     "Age": "64",
     "OthersItems": {
       "AstroSign": "Pegasus",
       "Sports": "Quidditch",
       "GodsType": "Party",
-      "Passion": ["Dancing", "Reading", "Animals"]
+      "Passion": [ "Dancing", "Reading", "Animals" ]
     },
     "RegisterSince": "16/09/-4531",
-    "PeopleLiked": ["Ligée", "Scylla", "Athena"],
+    "PeopleLiked": [ "Ligée", "Scylla", "Athena" ],
     "Contact": {
       "Phone": "025-743-631",
       "Address": "1 Cloud Street, Olympus",
@@ -400,16 +400,16 @@
     "Key": "20",
     "Name": "Scylla",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/8n2h.png",
     "Age": "51",
     "OthersItems": {
       "AstroSign": "Barrell",
       "Sports": "Football",
       "GodsType": "Justice",
-      "Passion": ["Baking", "Swimming"]
+      "Passion": [ "Baking", "Swimming" ]
     },
     "RegisterSince": "12/10/-1387",
-    "PeopleLiked": ["Oceanos", "Hermès", "Morphée"],
+    "PeopleLiked": [ "Oceanos", "Hermès", "Morphée" ],
     "Contact": {
       "Phone": "065-742-635",
       "Address": "158 Lilac bvd, Olympus",
@@ -420,16 +420,16 @@
     "Key": "21",
     "Name": "Brontès",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/ktsn.jpg",
     "Age": "32",
     "OthersItems": {
       "AstroSign": "Colibry",
       "Sports": "Football",
       "GodsType": "Love",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": [ "Cooking", "Swimming" ]
     },
     "RegisterSince": "02/06/-2133",
-    "PeopleLiked": ["Ocypète", "Athena", "Zeus"],
+    "PeopleLiked": [ "Ocypète", "Athena", "Zeus" ],
     "Contact": {
       "Phone": "098-354-786",
       "Address": "1 road to Cloud, Olympus",
@@ -440,16 +440,16 @@
     "Key": "22",
     "Name": "Ocypète",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/ako1.jpg",
     "Age": "45",
     "OthersItems": {
       "AstroSign": "Pillow Talk",
       "Sports": "Hunting",
       "GodsType": "Fire",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": [ "Cooking", "Swimming" ]
     },
     "RegisterSince": "29/12/-7531",
-    "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
+    "PeopleLiked": [ "Aphrodite", "Athena", "Artémis" ],
     "Contact": {
       "Phone": "098-354-786",
       "Address": "1 Lilac bvd, Olympus",
@@ -460,16 +460,16 @@
     "Key": "23",
     "Name": "Marsyas",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/l4nl.jpg",
     "Age": "58",
     "OthersItems": {
       "AstroSign": "Pegasus",
       "Sports": "Hunting",
       "GodsType": "Love",
-      "Passion": ["Sex", "Wine", "Baking"]
+      "Passion": [ "Sex", "Wine", "Baking" ]
     },
     "RegisterSince": "08/06/-6541",
-    "PeopleLiked": ["Hermès", "Athena", "Arès"],
+    "PeopleLiked": [ "Hermès", "Athena", "Arès" ],
     "Contact": {
       "Phone": "056-781-364",
       "Address": "16 Lilac bvd, Olympus",
@@ -480,16 +480,16 @@
     "Key": "24",
     "Name": "Ligée",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/l4nl.jpg",
     "Age": "27",
     "OthersItems": {
       "AstroSign": "Archery",
       "Sports": "Hunting",
       "GodsType": "Justice",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": [ "Cooking", "Swimming" ]
     },
     "RegisterSince": "05/04/-1862",
-    "PeopleLiked": ["Athena", "Demeter", "Artémis"],
+    "PeopleLiked": [ "Athena", "Demeter", "Artémis" ],
     "Contact": {
       "Phone": "028-364-186",
       "Address": "1Cloud Street, Olympus",
@@ -500,16 +500,16 @@
     "Key": "25",
     "Name": "Hadès",
     "Gender": "Male",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/ewku.jpg",
     "Age": "90",
     "OthersItems": {
       "AstroSign": "Snowball",
       "Sports": "Football",
       "GodsType": "Nature",
-      "Passion": ["Reading", "Swimming"]
+      "Passion": [ "Reading", "Swimming" ]
     },
     "RegisterSince": "08/07/-4620",
-    "PeopleLiked": ["Scylla", "Eros"],
+    "PeopleLiked": [ "Scylla", "Eros" ],
     "Contact": {
       "Phone": "074-454-386",
       "Address": "22 Lilac bvd, Olympus",
@@ -520,16 +520,16 @@
     "Key": "26",
     "Name": "Oceanos",
     "Gender": "Other",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Dionysos_satyr_Altemps_Inv8606.jpg/1200px-Dionysos_satyr_Altemps_Inv8606.jpg",
+    "Photo": "https://zupimages.net/viewer.php?id=20/47/w31y.png",
     "Age": "22",
     "OthersItems": {
       "AstroSign": "Half Full Glass",
       "Sports": "Quidditch",
       "GodsType": "Party",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": [ "Cooking", "Swimming" ]
     },
     "RegisterSince": "04/06/-1184",
-    "PeopleLiked": ["Centauros", "Zeus", "Prometheus"],
+    "PeopleLiked": [ "Centauros", "Zeus", "Prometheus" ],
     "Contact": {
       "Phone": "098-354-786",
       "Address": "1 road to Hell, Olympus",
