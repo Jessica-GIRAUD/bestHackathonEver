@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 import "./App.css";
-import RS from './components/RS';
+import RS from "./components/RS";
 import Filters from "./components/Filters";
 import NavBar from "./components/NavBar";
 import Carousell from "./components/Carousell";
 import Footer from "./components/Footer";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
-import Footer from "./components/Footer";
-import RS from "./components/RS";
 import Testit from "./components/Testit";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import FavoriteCard from "./components/FavoriteCard";

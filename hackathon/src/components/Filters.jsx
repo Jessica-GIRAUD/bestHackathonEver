@@ -5,8 +5,8 @@ import FilterTag from "./FilterTag";
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
 import Carousell from "./Carousell";
-import "../styled/Accordion.css"
-import "../styled/Card.css"
+import "../styled/Accordion.css";
+import "../styled/Card.css";
 import styled from "styled-components";
 
 const Select = styled.select`
@@ -21,29 +21,28 @@ const Select = styled.select`
   border-radius: 5px;
   outline: none;
   margin: 80px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 `;
 
 const Label = styled.label`
-background : black;
-color: #FF1493;
-font-size: 1em;
-margin: auto;
-padding: 0.25em 1em;
-border: 2px solid #FF1493;
-border-radius: 3px;
-width: 10em;
+  background: black;
+  color: #ff1493;
+  font-size: 1em;
+  margin: auto;
+  padding: 0.25em 1em;
+  border: 2px solid #ff1493;
+  border-radius: 3px;
+  width: 10em;
 `;
 
 const WrapFilters = styled.div`
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background:black;
+  background: black;
   opacity: 30%;
 `;
-
 
 class Filters extends Component {
   constructor(props) {
@@ -63,7 +62,7 @@ class Filters extends Component {
     const gods = Data;
     const data = gods.find((item) => item.Key === Key);
     this.setState({
-      godsFav: [...godsFav, data]
+      godsFav: [...godsFav, data],
     });
   };
 
@@ -73,14 +72,12 @@ class Filters extends Component {
     this.setState({ godsFav: hapus });
   };
 
-
   removeGod = (Key) => {
     const gods = Data;
-    var index = gods.indexOf(Key)
+    var index = gods.indexOf(Key);
     gods.splice(index, 1);
-    this.setState({data: index});
-  }
-
+    this.setState({ data: index });
+  };
 
   onClickChange = (e) => {
     const newGender = e.target.value;
@@ -105,55 +102,61 @@ class Filters extends Component {
     return (
       <div>
         <div className="accordion">
-        <input type="checkbox" id="filter-options" className="toggle" />
-        <Label className="title" htmlFor="filter-options">FILTER MY SEARCH</Label>
-        <WrapFilters className="content">
-        <Select
-          value={newGender}
-          onChange={this.onClickChange}
-          name="gender"
-          id="gender"
-        >
-          <option value="All">All</option>
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-          <option value="Other">Animal</option>
-        </Select>
-        <br/>
-        <FilterAge onChange={this.onClickAge} />
-        <br/>
-        <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
-        </WrapFilters>
+          <input type="checkbox" id="filter-options" className="toggle" />
+          <Label className="title" htmlFor="filter-options">
+            FILTER MY SEARCH
+          </Label>
+          <WrapFilters className="content">
+            <Select
+              value={newGender}
+              onChange={this.onClickChange}
+              name="gender"
+              id="gender"
+            >
+              <option value="All">All</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Animal</option>
+            </Select>
+            <br />
+            <FilterAge onChange={this.onClickAge} />
+            <br />
+            <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
+          </WrapFilters>
         </div>
         <div>
-
-        <div className='general'>
-
-          {Data.filter(
-            (genre) =>
-              genre.Gender === this.state.gender || this.state.gender === "All"
-          )
-            .filter(
-              (item) =>
-                this.state.ageRange[0] < item.Age &&
-                item.Age < this.state.ageRange[1]
+          <div className="general">
+            {Data.filter(
+              (genre) =>
+                genre.Gender === this.state.gender ||
+                this.state.gender === "All"
             )
-            .filter(
-              (item) =>
-                tagArr.length === 0 ||
-                tagArr.includes(item.OthersItems.AstroSign) ||
-                tagArr.includes(item.OthersItems.Sports) ||
-                tagArr.includes(item.OthersItems.GodsType) ||
-                tagArr.filter((value) =>
-                  item.OthersItems.Passion.includes(value)
-                ).length > 0
-              //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
-            )
-            .map((God) => (
-
-              <GodCard className="GodCard" god={God} add={this.addToFavorite} removeGod={this.removeGod}/>
+              .filter(
+                (item) =>
+                  this.state.ageRange[0] < item.Age &&
+                  item.Age < this.state.ageRange[1]
+              )
+              .filter(
+                (item) =>
+                  tagArr.length === 0 ||
+                  tagArr.includes(item.OthersItems.AstroSign) ||
+                  tagArr.includes(item.OthersItems.Sports) ||
+                  tagArr.includes(item.OthersItems.GodsType) ||
+                  tagArr.filter((value) =>
+                    item.OthersItems.Passion.includes(value)
+                  ).length > 0
+                //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
+              )
+              .map((God) => (
+                <GodCard
+                  className="GodCard"
+                  god={God}
+                  add={this.addToFavorite}
+                  removeGod={this.removeGod}
+                />
               ))}
-              <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
+            <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
+          </div>
         </div>
       </div>
     );
