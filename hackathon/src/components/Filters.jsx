@@ -4,6 +4,7 @@ import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
+import '../styled/Card.css';
 
 class Filters extends Component {
   constructor(props) {
@@ -77,7 +78,7 @@ class Filters extends Component {
         </select>
         <FilterAge onChange={this.onClickAge} />
         <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
-        <div>
+        <div className='general'>
           {Data.filter(
             (genre) =>
               genre.Gender === this.state.gender || this.state.gender === "All"

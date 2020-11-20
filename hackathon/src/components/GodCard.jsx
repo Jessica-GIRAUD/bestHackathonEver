@@ -26,7 +26,7 @@ class GodCard extends Component {
     const { god, add, removeGod } = this.props;
     const {isFavorite} = this.state;
     return (
-      <div>
+      <div className='general'>
           <div className='godContainer'>
             <div className='container'>
               <img src={god.Photo} alt={god.Name} className='godImage' />
