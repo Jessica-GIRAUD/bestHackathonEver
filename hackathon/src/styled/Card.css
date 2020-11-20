@@ -1,0 +1,119 @@
+/*CSS for Main Card */
+
+.godContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background-color: #bbb;;
+  margin: 20px;
+}
+
+.godImage {
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+.likeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px;
+}
+
+.hr {
+  width: 100%;
+}
+
+.favorite {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+.notFavorite {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg");
+  background-size: 100%;
+  align-self: flex-start;
+  background-repeat: no-repeat;
+}
+
+/*CSS for Favorite Card */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(122, 127, 133);
+  color: white;
+  transform: rotateY(180deg);
+}

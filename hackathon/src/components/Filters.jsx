@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Data from "../APIGods.json";
 import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
+import GodCard from "./GodCard";
+import FavoriteCard from "./FavoriteCard";
 
 class Filters extends Component {
   constructor(props) {
@@ -11,9 +13,26 @@ class Filters extends Component {
       ageRange: [0, 100],
       tag: "",
       tagArr: [],
+      godsFav: [],
     };
     this.onTypeTag = this.onTypeTag.bind(this);
   }
+
+  addToFavorite = (Key) => {
+    const { godsFav } = this.state;
+    const gods = Data;
+    const data = gods.find((item) => item.Key === Key);
+    this.setState({
+      godsFav: [...godsFav, data]
+    });
+  };
+
+  removeToFavorite = (Key) => {
+    const { godsFav } = this.state;
+    const hapus = godsFav.filter((item) => item.Key !== Key);
+    this.setState({ godsFav: hapus });
+  };
+
 
   onClickChange = (e) => {
     const newGender = e.target.value;
@@ -34,7 +53,7 @@ class Filters extends Component {
   };
 
   render() {
-    const { newGender, tag, tagArr } = this.state;
+    const { newGender, tag, tagArr, godsFav } = this.state;
     return (
       <div>
         {console.log(tagArr)}
@@ -73,16 +92,10 @@ class Filters extends Component {
                 ).length > 0
               //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
             )
-            .map((gode) => (
-              <div>
-                <img
-                  style={{ width: "25%" }}
-                  src={gode.Photo}
-                  alt={gode.Name}
-                ></img>
-                <h1>{gode.Name}</h1>
-              </div>
-            ))}
+            .map((God) => (
+              <GodCard god={God} add={this.addToFavorite} />
+              ))}
+              <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
         </div>
       </div>
     );
