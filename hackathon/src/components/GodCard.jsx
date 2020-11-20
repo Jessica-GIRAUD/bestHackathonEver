@@ -8,10 +8,6 @@ import '../styled/Card.css';
 import '../styled/Accordion.css';
 import styled from "styled-components";
 
-const ImgLike = styled.img`
-  width: 3em;
-`;
-
 const ImgDislike = styled.img`
   width: 3em;
 `;
@@ -31,6 +27,7 @@ class GodCard extends Component {
 
   render() {
     const { god, add } = this.props;
+    const {isFavorite} = this.state;
     return (
       <div>
           <div className='godContainer'>
@@ -39,16 +36,18 @@ class GodCard extends Component {
               <h1 className='name'>{god.Name}</h1>
             </div>
             <hr className='hr' />
+
             <div className='likeContainer'>
-              <div className={this.state.isFavorite ? 'favorite' : 'notFavorite'} onClick={this.handleFavorite}>            <ImgLike src={Like} alt="like"/></div>
-              <button onClick={() => add(god.Key)}>Add to Fav</button>
-              <div className='dislike'>
-                <ImgDislike src={Dislike} alt="dislike"/></div>
+              <div onClick={this.handleFavorite}> 
+                <img className={isFavorite ? 'like' : 'dislike'} src={Like} alt="like" onClick={() => add(god.Key)}/>
+              </div>
+              <div>
+                <img className='dislike' src={Dislike} alt="dislike"/></div>
             </div>
+
             <div className="accordion">
               <input type="checkbox" id="god-options" className="toggle" />
-              <label className="title" htmlFor="god-options">
-
+              <label className="title" htmlFor="god-options"> blabla
               </label>
               <div className="content">
                 <div>

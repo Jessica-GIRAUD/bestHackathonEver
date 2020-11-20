@@ -22,7 +22,7 @@ class FavoriteCard extends Component {
               <p>Phone : {god.Phone}</p>
               <p>Instagram : {god.InstaGod}</p>
               <p>Hobbies : {god.Passion}</p>
-              <button onClick={() => this.props.remove(god.id)}>
+              <button id={god.Key} onClick={() => this.props.remove(god.id)}>
                 Delete from Favorite
           </button>
             </div>

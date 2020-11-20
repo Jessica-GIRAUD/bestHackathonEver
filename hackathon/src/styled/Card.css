@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   width: 300px;
-  height: 100%;
+  height: 500px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
   background-color: #bbb;;
@@ -35,6 +35,16 @@
   justify-content: space-around;
   width: 100%;
   margin: 10px;
+}
+
+.like{
+  width: 3em;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(255, 206, 106, 1);
+}
+
+.dislike{
+  width: 3em;
 }
 
 .hr {
