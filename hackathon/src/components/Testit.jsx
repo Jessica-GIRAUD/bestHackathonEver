@@ -1,40 +1,78 @@
-import React from 'react';
+import React from "react";
+import "../styled/Card.css";
 
 const Testit = () => {
   return (
     <div>
       <h1> How does it work ? </h1>
-      <p>Description de l'application</p>
-      <h1>They test IT !</h1>
-      <div className="CardGroup">
-        <div className="Card1">
-          <img src="https://merics.org/sites/default/files/styles/ct_team_member_default/public/2020-04/avatar-placeholder.png?itok=Vhm0RCa3" alt="dios1" />
-          <div className="CardBody">
-            <h1 className="Nom">Dyonysos</h1>
-            <p> Aucune personne n’a su accepter ma passion pour le vin… Sur Adopt a God, je peux trouver qqn qui me ressemble </p>
+      <p>
+        Adopt a God is a dating application for ancient Greek deities who want
+        to become friends, sexfriends or find the love of their lives, even if
+        fidelity to the Gods is not their strong point. You can search for the
+        relationship you want with the person you have chosen thanks to our
+        filters. Hopefully you can find what you are looking for with Adopt a
+        God
+      </p>
+      <div className="godContainer">
+        <div className="container">
+          <img
+            src="https://cdn.britannica.com/04/186604-050-980E8365/oil-Bacchus-canvas-Caravaggio-Florence-Italy-Uffizi.jpg"
+            alt="dios1"
+            className="godImage"
+          />
+          <h1 className="name">Dyonysos</h1>
+
+          <div>
+            <p>
+              {" "}
+              No one accepted my passion for wine...On Adopt a God, i can find
+              someone who looks like me
+            </p>
           </div>
         </div>
-        <div className="Card2">
-          <img src="https://merics.org/sites/default/files/styles/ct_team_member_default/public/2020-04/avatar-placeholder.png?itok=Vhm0RCa3" alt="dios2" />
+        <div className="container">
+          <img
+            src="https://cdn.britannica.com/00/182100-050-E1754515/Athena-Parthenos-Alan-LeQuire-1982-replica-Parthenon-Nashville-Tenessee.jpg"
+            alt="dios2"
+            className="godImage"
+          />
           <div className="CardBody">
             <h1 className="Nom">Athéna</h1>
-            <p>Impossible de tomber amoureuse  d’un humain… Mais rencontrer un minotaure dans la vie de tous les jours, compliqué
- </p>
+            <div>
+              <p>
+                Impossible to fall in love with a humain...but meet a minotaure
+                in the daily life, complicated
+              </p>
+            </div>
           </div>
         </div>
-        <div className="Card3">
-          <img src="https://merics.org/sites/default/files/styles/ct_team_member_default/public/2020-04/avatar-placeholder.png?itok=Vhm0RCa3" alt="dios3" />
+        <div className="container">
+          <img
+            src="https://www.alaturka.info/images/geschichte/zeus.jpg"
+            alt="dios3"
+            className="godImage"
+          />
           <div className="CardBody">
             <h1 className="Nom">Zeus</h1>
-            <p> Après 49 mariages et 92 enfants, je cherche mon âme soeur !
- </p>
+            <div>
+              <p>
+                {" "}
+                After 49 weeding and 92 children, i'm looking for my soulmate !
+              </p>
+            </div>
           </div>
         </div>
-        <div classsName="Card4">
-          <img src="https://merics.org/sites/default/files/styles/ct_team_member_default/public/2020-04/avatar-placeholder.png?itok=Vhm0RCa3" alt="dios4" />
+        <div className="container">
+          <img
+            src="https://assets.artworkarchive.com/image/upload/t_jpg_large/v1/user_34103/Artemis_gereso"
+            alt="dios4"
+            className="godImage"
+          />
           <div className="CardBody">
-            <h1 className="Nom">Card title</h1>
-            <p>Texte à rentrer </p>
+            <h1 className="Nom">Arthemis</h1>
+            <div>
+              <p>Would you like to taste my arrow?</p>
+            </div>
           </div>
         </div>
       </div>
