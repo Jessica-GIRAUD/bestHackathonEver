@@ -79,6 +79,7 @@ class Filters extends Component {
     this.setState({ data: index });
   };
 
+
   onClickChange = (e) => {
     const newGender = e.target.value;
     this.setState({
