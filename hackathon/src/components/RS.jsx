@@ -45,7 +45,7 @@ const RS = () => (
         </RStype>
         <RStype>
           <Img src={minautore} alt="Minautore" />
-          <p>Face de Minautore</p>
+          <p>Face de Minautoree</p>
         </RStype>
         <RStype>
           <Img src={TwitHermes} alt="TwitHermes" />
