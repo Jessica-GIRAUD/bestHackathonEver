@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import '../styled/Card.css';
-import Data from '../APIGods.json';
+import Dislike from "../img/Dislike.png";
 
 class FavoriteCard extends Component {
   render() {
-    const { godsFav } = this.props;
+    const { godsFav, remove } = this.props;
     return (
       <div>
         <h2>Favorite</h2>
@@ -17,19 +17,20 @@ class FavoriteCard extends Component {
             </div>
             <div className="flip-card-back">
               <h2>{god.Name}</h2>
-              <p>Age : {god.Age}</p>
-              <p>Astro Sign : {god.AstroSign} </p>
-              <p>Address : {god.Address}</p>
-              <p>Phone : {god.Phone}</p>
-              <p>Instagram : {god.InstaGod}</p>
-              <p>Hobbies : {god.Passion}</p>
-              <button onClick={() => this.props.remove(god.id)}>
-                Delete from Favorite
-          </button>
+              <p>Age : {god.Age} <br/>
+              Astro Sign : {god.AstroSign} <br/>
+              Address : {god.Address} <br/>
+              Phone : {god.Phone} <br/>
+              Instagram : {god.InstaGod} <br/>
+              Hobbies : {god.Passion}
+              </p>
+              <div id={god.Key}>
+                <img className='dislike' src={Dislike} alt="dislike" onClick={() => remove(god.Key)}/>
+              </div>
             </div>
           </div>
         </div>
-    ))};
+    ))}
       </div>
     )
   }

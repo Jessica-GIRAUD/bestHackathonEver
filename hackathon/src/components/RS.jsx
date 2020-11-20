@@ -9,8 +9,8 @@ const RStype = styled.p`
   flex-direction: column;
   align-items: center;
   width: 4em;
-  text-align:center;
-  margin: 2em;
+  text-align: center;
+  margin: 2em 2em 0 2em;
 `;
 
 const Img = styled.img`
@@ -30,21 +30,22 @@ const ListRS = styled.ul`
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: center; 
+  justify-content: center;
   color: #ffffff;
+  padding-left: 0;
 `;
 
 const RS = () => (
   <>
-  <Wrap>
+    <Wrap>
       <ListRS>
         <RStype>
           <Img src={index} alt="InstaGod" />
           <p>InstaGod</p>
         </RStype>
         <RStype>
-          <Img src={minautore} alt="minautore" />
-          <p>Face de Minautore</p>
+          <Img src={minautore} alt="Minautore" />
+          <p>Face de Minautoree</p>
         </RStype>
         <RStype>
           <Img src={TwitHermes} alt="TwitHermes" />

@@ -74,6 +74,14 @@ class Filters extends Component {
   };
 
 
+  removeGod = (Key) => {
+    const gods = Data;
+    var index = gods.indexOf(Key)
+    gods.splice(index, 1);
+    this.setState({data: index});
+  }
+
+
   onClickChange = (e) => {
     const newGender = e.target.value;
     this.setState({
@@ -118,6 +126,9 @@ class Filters extends Component {
         </WrapFilters>
         </div>
         <div>
+
+        <div className='general'>
+
           {Data.filter(
             (genre) =>
               genre.Gender === this.state.gender || this.state.gender === "All"
@@ -139,7 +150,8 @@ class Filters extends Component {
               //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
             )
             .map((God) => (
-              <GodCard className="GodCard" god={God} add={this.addToFavorite} />
+
+              <GodCard className="GodCard" god={God} add={this.addToFavorite} removeGod={this.removeGod}/>
               ))}
               <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
         </div>

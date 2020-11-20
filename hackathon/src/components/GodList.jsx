@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
-import Data from "../APIGods.json";
 
 const GodList = ({ gods, add, remove, favorites }) => {
   return (
