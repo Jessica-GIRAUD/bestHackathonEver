@@ -10,6 +10,7 @@ import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Fade from "@material-ui/core/Fade";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -57,12 +58,20 @@ export default function ButtonAppBar() {
             onClose={handleClose}
             TransitionComponent={Fade}
           >
-            <MenuItem onClick={handleClose}>Home</MenuItem>
-            <MenuItem onClick={handleClose}>How it works</MenuItem>
-            <MenuItem onClick={handleClose}>Favorite</MenuItem>
-          </Menu>
+            <Link to={"/"}>
+              <MenuItem onClick={handleClose}>Home</MenuItem>
+            </Link>
 
-          <img src={Title} alt="icone site" style={{ height: "56px" }} />
+            <Link to={"/howitworks"}>
+              <MenuItem onClick={handleClose}>How it works</MenuItem>
+            </Link>
+            <Link to={"/Favorites"}>
+              <MenuItem onClick={handleClose}>Favoritee</MenuItem>
+            </Link>
+          </Menu>
+          <Link to={"/"}>
+            <img src={Title} alt="icone site" style={{ height: "56px" }} />
+          </Link>
 
           <img src={Icone} alt="icone site" style={{ height: "56px" }} />
         </Toolbar>
