@@ -9,7 +9,7 @@ class FavoriteCard extends Component {
       <div>
         <h2>Favorite</h2>
         {godsFav.map(god => (
-        <div className="flip-card" >
+        <div className='flip-card' >
           <div className='flip-card-inner'>
             <div className="flip-card-front">
               <img src={god.Photo} alt='name' className='godImage' />
@@ -18,11 +18,11 @@ class FavoriteCard extends Component {
             <div className="flip-card-back">
               <h2>{god.Name}</h2>
               <p>Age : {god.Age} <br/>
-              Astro Sign : {god.AstroSign} <br/>
-              Address : {god.Address} <br/>
-              Phone : {god.Phone} <br/>
-              Instagram : {god.InstaGod} <br/>
-              Hobbies : {god.Passion}
+              Astro Sign : {god.OthersItems.AstroSign} <br/>
+              Address : {god.Contact.Address} <br/>
+              Phone : {god.Contact.Phone} <br/>
+              Instagram : {god.Contact.InstaGod} <br/>
+              Hobbies : {god.OthersItems.Passion}
               </p>
               <div id={god.Key}>
                 <img className='dislike' src={Dislike} alt="dislike" onClick={() => remove(god.Key)}/>

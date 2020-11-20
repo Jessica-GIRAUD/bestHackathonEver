@@ -5,6 +5,7 @@ import '../styled/Accordion.css';
 import Like from "../img/Like.png";
 import Dislike from "../img/Dislike.png";
 import '../styled/Card.css';
+import '../styled/Flip.css';
 import '../styled/Accordion.css';
 import Data from "../APIGods.json";
 
@@ -26,42 +27,30 @@ class GodCard extends Component {
     const { god, add, removeGod } = this.props;
     const { isFavorite } = this.state;
     return (
-      <div className='general'>
-        <div className='godContainer'>
-          <div className='container'>
+      <div className='flip-card'>
+        <div className='flip-card-inner'>
+          <div className='flip-card-front'>
             <img src={god.Photo} alt={god.Name} className='godImage' />
             <h1 className='name'>{god.Name}</h1>
           </div>
-          <hr className='hr' />
-
-          <div className='likeContainer'>
-            <div onClick={this.handleFavorite}>
-              <img className={isFavorite ? 'like' : 'dislike'} src={Like} alt="like" onClick={() => add(god.Key)} />
-            </div>
+          <div className="flip-card-back">
             <div>
-              <img className='dislike' src={Dislike} alt="dislike" onClick={() => removeGod(god.Key)} />
+              <p>Age : {god.Age}</p>
+              <p>Genres : {god.Gender}</p>
+              <p>Sport : {god.OthersItems.Sports}</p>
+              <p>Passions : {god.OthersItems.Passion}</p>
             </div>
-          </div>
-
-          <div className="accordion">
-            <div>
-              <input type="checkbox" id="god-options" className="toggle" />
-              <label className="title" htmlFor="god-options">
-                <span>&#9432;</span>
-              </label>
-            </div>
-            <div className="content">
+            <div className='likeContainer'>
+              <div onClick={this.handleFavorite}>
+                <img className={isFavorite ? 'like' : 'dislike'} src={Like} alt="like" onClick={() => add(god.Key)} />
+              </div>
               <div>
-                <p>Age : {god.Age}</p>
-                <p>Genres : {god.Gender}</p>
-                <p>Sport : {god.Sports}</p>
-                <p>Passions : {god.Passion}</p>
+                <img className='dislike' src={Dislike} alt="dislike" onClick={() => removeGod(god.Key)} />
               </div>
             </div>
           </div>
-
         </div>
-      </div>
+      </div >
     )
   }
 }

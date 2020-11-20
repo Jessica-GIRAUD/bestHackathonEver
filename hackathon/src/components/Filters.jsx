@@ -38,7 +38,7 @@ class Filters extends Component {
     const gods = Data;
     var index = gods.indexOf(Key)
     gods.splice(index, 1);
-    this.setState({data: index});
+    this.setState({ data: index });
   }
 
   onClickChange = (e) => {
@@ -100,9 +100,11 @@ class Filters extends Component {
               //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
             )
             .map((God) => (
-              <GodCard god={God} add={this.addToFavorite} removeGod={this.removeGod}/>
-              ))}
-              <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
+              <GodCard god={God} add={this.addToFavorite} removeGod={this.removeGod} />
+            ))}
+          <div>
+            <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
+          </div>
         </div>
       </div>
     );

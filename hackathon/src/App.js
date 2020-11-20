@@ -8,7 +8,7 @@ import Testit from './components/Testit';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='body'>
         <Filters />
         <Testit />
         <Footer />
