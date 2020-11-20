@@ -52,7 +52,7 @@ const RS = () => (
           <p>Twit'Hermes</p>
         </RStype>
       </ListRS>
-    </Wrap>
+      </Wrap>
   </>
 );
 
