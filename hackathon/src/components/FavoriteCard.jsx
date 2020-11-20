@@ -11,17 +11,17 @@ class FavoriteCard extends Component {
         <div className="flip-card" >
           <div className='flip-card-inner'>
             <div className="flip-card-front">
-              <img src={god.photo} alt='name' className='godImage' />
-              <h1 className='name'>{god.name}</h1>
+              <img src={god.Photo} alt='name' className='godImage' />
+              <h1 className='name'>{god.Name}</h1>
             </div>
             <div className="flip-card-back">
-              <h2>{god.name}</h2>
-              <p>Age : {god.age}</p>
-              <p>Astro Sign : {god.stroSign} </p>
-              <p>Address : {god.address}</p>
-              <p>Phone : {god.phone}</p>
-              <p>Instagram : {god.instaGod}</p>
-              <p>Hobbies : {god.passion}</p>
+              <h2>{god.Name}</h2>
+              <p>Age : {god.Age}</p>
+              <p>Astro Sign : {god.AstroSign} </p>
+              <p>Address : {god.Address}</p>
+              <p>Phone : {god.Phone}</p>
+              <p>Instagram : {god.InstaGod}</p>
+              <p>Hobbies : {god.Passion}</p>
               <button onClick={() => this.props.remove(god.id)}>
                 Delete from Favorite
           </button>

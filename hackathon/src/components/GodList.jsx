@@ -8,26 +8,26 @@ const GodList = ({ gods, add, remove, favorites }) => {
     <div>
       {gods.map((god) => (
         <GodCard
-          key={god.id}
-          name={god.name}
-          photo={god.photo}
-          age={god.age}
-          gender={god.gender}
-          sport={god.othersItems.sports}
-          passion={god.othersItems.passion}
+          key={god.Key}
+          name={god.Name}
+          photo={god.Photo}
+          age={god.Age}
+          gender={god.Gender}
+          sport={god.OthersItems.Sports}
+          passion={god.OthersItems.Passion}
           add={add}
         />
       ))}
       {favorites.map((favorite) => (
         <FavoriteCard
-          key={favorite.id}
-          name={favorite.name}
-          photo={favorite.photo}
-          age={favorite.age}
-          astroSign={favorite.othersItems.astroSign}
-          address={favorite.contact.address}
-          phone={favorite.contact.phone}
-          instagram={favorite.contact.instafavorite}
+          key={favorite.Key}
+          name={favorite.Name}
+          photo={favorite.Photo}
+          age={favorite.Age}
+          astroSign={favorite.OthersItems.AstroSign}
+          address={favorite.Contact.Address}
+          phone={favorite.Contact.Phone}
+          instagram={favorite.Contact.instafavorite}
           hobbies={favorite.othersItems.passion}
           gender={favorite.gender}
           sport={favorite.othersItems.sports}
@@ -41,7 +41,7 @@ const GodList = ({ gods, add, remove, favorites }) => {
 };
 
 GodList.propTypes = {
-  gods: PropTypes.arrayOf(PropTypes.object).isRequired,
+  Data: PropTypes.arrayOf(PropTypes.object).isRequired,
   add: PropTypes.func.isRequired,
   remove: PropTypes.func.isRequired,
   favorites: PropTypes.arrayOf(PropTypes.object).isRequired,
