@@ -4,6 +4,7 @@ import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
+import Carousell from "./Carousell";
 
 class Filters extends Component {
   constructor(props) {
@@ -56,6 +57,7 @@ class Filters extends Component {
     const { newGender, tag, tagArr, godsFav } = this.state;
     return (
       <div>
+        <Carousell />
         {console.log(tagArr)}
         {console.log(tag)}
         <select
