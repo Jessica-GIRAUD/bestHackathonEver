@@ -1,4 +1,20 @@
 import React from "react";
+import styled from "styled-components";
+
+
+const Form = styled.button`
+  position: absolute;
+  font-size: 14px;
+  color: white;
+  border: none;
+  width: 250px;
+  height: 24px;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  margin: 80px;
+`;
+
 
 class FilterTag extends React.Component {
   constructor(props) {
@@ -13,7 +29,7 @@ class FilterTag extends React.Component {
 
   render() {
     return (
-      <form>
+      <Form>
         <input
           type="text"
           placeholder="Type a hobby"
@@ -28,7 +44,7 @@ class FilterTag extends React.Component {
             <button>{itemTag}</button>
           ))}
         </div>
-      </form>
+      </Form>
     );
   }
 }

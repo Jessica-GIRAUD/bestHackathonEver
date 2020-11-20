@@ -44,8 +44,7 @@ class GodCard extends Component {
             </div>
             <div className="accordion">
               <input type="checkbox" id="god-options" className="toggle" />
-              <label className="title" htmlFor="god-options">
-
+              <label className="title" htmlFor="god-options"> &#9432;
               </label>
               <div className="content">
                 <div>

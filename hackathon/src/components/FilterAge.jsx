@@ -1,13 +1,16 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Slider from "@material-ui/core/Slider";
 
 const useStyles = makeStyles({
   root: {
-    width: 300,
+    width: 240,
+    color: "#000000",
+    margin: 80,
   },
 });
+
 
 function valuetext(value) {
   return `${value}years old`;
@@ -20,9 +23,8 @@ export default function RangeSlider(props) {
     <div>
       <div className={classes.root}>
         <Typography id="range-slider" gutterBottom>
-          Age Range
         </Typography>
-        <p>18</p>
+        <p>18 years old</p>
         <Slider
           defaultValue={[0, 100]}
           onChange={onChange}
