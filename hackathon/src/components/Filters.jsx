@@ -56,8 +56,6 @@ class Filters extends Component {
     const { newGender, tag, tagArr, godsFav } = this.state;
     return (
       <div>
-        {console.log(tagArr)}
-        {console.log(tag)}
         <select
           value={newGender}
           onChange={this.onClickChange}
