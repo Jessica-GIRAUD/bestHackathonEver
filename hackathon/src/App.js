@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import FavoriteCard from './components/FavoriteCard';
 import GodCard from './components/GodCard';
+import Testit from './components/work';
 
 class App extends Component {
   constructor(props) {
@@ -91,6 +92,7 @@ class App extends Component {
       <div>
         <GodCard gods={gods} add={this.addToFavorite} />
         <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
+        <Testit />
       </div>
     )
   }
