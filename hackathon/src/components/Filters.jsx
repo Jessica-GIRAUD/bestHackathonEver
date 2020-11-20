@@ -4,6 +4,7 @@ import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
+import '../styled/Card.css';
 
 class Filters extends Component {
   constructor(props) {
@@ -33,6 +34,12 @@ class Filters extends Component {
     this.setState({ godsFav: hapus });
   };
 
+  removeGod = (Key) => {
+    const gods = Data;
+    var index = gods.indexOf(Key)
+    gods.splice(index, 1);
+    this.setState({data: index});
+  }
 
   onClickChange = (e) => {
     const newGender = e.target.value;
@@ -69,7 +76,7 @@ class Filters extends Component {
         </select>
         <FilterAge onChange={this.onClickAge} />
         <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
-        <div>
+        <div className='general'>
           {Data.filter(
             (genre) =>
               genre.Gender === this.state.gender || this.state.gender === "All"
@@ -91,7 +98,7 @@ class Filters extends Component {
               //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
             )
             .map((God) => (
-              <GodCard god={God} add={this.addToFavorite} />
+              <GodCard god={God} add={this.addToFavorite} removeGod={this.removeGod}/>
               ))}
               <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
         </div>
