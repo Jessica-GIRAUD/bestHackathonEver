@@ -90,4 +90,3 @@ class Filters extends Component {
 }
 
 export default Filters;
->>>>>>> c9171e9eb75e6a4202a3a21ce8e01811eaf273cb

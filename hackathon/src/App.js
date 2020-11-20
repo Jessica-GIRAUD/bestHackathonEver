@@ -1,19 +1,14 @@
-<<<<<<< HEAD
 import './App.css';
 import Filters from './components/Filters'
-=======
-import "./App.css";
-import Filters from "./components/Filters";
->>>>>>> c9171e9eb75e6a4202a3a21ce8e01811eaf273cb
+import Footer from './components/Footer';
+import RS from './components/RS';
 
 function App() {
   return (
     <div>
-<<<<<<< HEAD
      <Filters />
-=======
-      <Filters />
->>>>>>> c9171e9eb75e6a4202a3a21ce8e01811eaf273cb
+     <Footer />
+     <RS />
     </div>
   );
 }
