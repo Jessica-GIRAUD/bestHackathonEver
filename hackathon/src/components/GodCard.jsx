@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import '../styled/Card.css';
 import '../styled/Accordion.css';
+import true from "../img/true.png";
+import false from "../img/false.png";
 
 class GodCard extends Component {
   constructor( props ) {
@@ -29,12 +31,12 @@ class GodCard extends Component {
             <div className='likeContainer'>
               <div className={this.state.isFavorite ? 'favorite' : 'notFavorite'} onClick={this.handleFavorite}></div>
               <button onClick={() => add(god.Key)}>Add to Fav</button>
-              <div className='dislike'>&#10008;</div>
+              <div className='dislike'><img src={false} alt="dislike"/></div>
             </div>
             <div className="accordion">
               <input type="checkbox" id="god-options" className="toggle" />
               <label className="title" htmlFor="god-options">
-                <span>&#9432;</span>
+              <img src={true} alt="dislike"/>
               </label>
               <div className="content">
                 <div>
