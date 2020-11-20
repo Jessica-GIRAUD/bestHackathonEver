@@ -66,15 +66,4 @@ class GodCard extends Component {
   }
 }
 
-/* GodCard.propTypes = {
-     name: PropTypes.string.isRequired,
-     photo: PropTypes.string.isRequired,
-     id: PropTypes.number.isRequired,
-     age: PropTypes.number.isRequired,
-     gender: PropTypes.string.isRequired,
-     sports: PropTypes.string.isRequired,
-     passion: PropTypes.string.isRequired,
-     add: PropTypes.func.isRequired,
-   }; */
-
 export default GodCard;

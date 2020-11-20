@@ -4,7 +4,46 @@ import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
-import '../styled/Card.css';
+import Carousell from "./Carousell";
+import "../styled/Accordion.css"
+import "../styled/Card.css"
+import styled from "styled-components";
+
+const Select = styled.select`
+  left: 75px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  width: 250px;
+  height: 24px;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  margin: 80px;
+  padding-bottom:20px;
+`;
+
+const Label = styled.label`
+background : black;
+color: #FF1493;
+font-size: 1em;
+margin: auto;
+padding: 0.25em 1em;
+border: 2px solid #FF1493;
+border-radius: 3px;
+width: 10em;
+`;
+
+const WrapFilters = styled.div`
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-evenly;
+  background:black;
+  opacity: 30%;
+`;
+
 
 class Filters extends Component {
   constructor(props) {
@@ -34,12 +73,14 @@ class Filters extends Component {
     this.setState({ godsFav: hapus });
   };
 
+
   removeGod = (Key) => {
     const gods = Data;
     var index = gods.indexOf(Key)
     gods.splice(index, 1);
     this.setState({data: index});
   }
+
 
   onClickChange = (e) => {
     const newGender = e.target.value;
@@ -63,7 +104,11 @@ class Filters extends Component {
     const { newGender, tag, tagArr, godsFav } = this.state;
     return (
       <div>
-        <select
+        <div className="accordion">
+        <input type="checkbox" id="filter-options" className="toggle" />
+        <Label className="title" htmlFor="filter-options">FILTER MY SEARCH</Label>
+        <WrapFilters className="content">
+        <Select
           value={newGender}
           onChange={this.onClickChange}
           name="gender"
@@ -73,10 +118,17 @@ class Filters extends Component {
           <option value="Male">Male</option>
           <option value="Female">Female</option>
           <option value="Other">Animal</option>
-        </select>
+        </Select>
+        <br/>
         <FilterAge onChange={this.onClickAge} />
+        <br/>
         <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
+        </WrapFilters>
+        </div>
+        <div>
+
         <div className='general'>
+
           {Data.filter(
             (genre) =>
               genre.Gender === this.state.gender || this.state.gender === "All"
@@ -98,7 +150,8 @@ class Filters extends Component {
               //Object.fromEntries(item.OthersItems.Passion).includes(tagArr)
             )
             .map((God) => (
-              <GodCard god={God} add={this.addToFavorite} removeGod={this.removeGod}/>
+
+              <GodCard className="GodCard" god={God} add={this.addToFavorite} removeGod={this.removeGod}/>
               ))}
               <FavoriteCard godsFav={godsFav} remove={this.removeToFavorite} />
         </div>
