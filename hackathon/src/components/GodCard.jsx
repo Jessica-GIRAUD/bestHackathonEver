@@ -1,9 +1,17 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+import Like from "../img/Like.png";
+import Dislike from "../img/Dislike.png";
 import '../styled/Card.css';
 import '../styled/Accordion.css';
-import true from "../img/true.png";
-import false from "../img/false.png";
+import styled from "styled-components";
+
+const ImgLike = styled.img`
+  width: 3em;
+`;
+
+const ImgDislike = styled.img`
+  width: 3em;
+`;
 
 class GodCard extends Component {
   constructor( props ) {
@@ -29,14 +37,15 @@ class GodCard extends Component {
             </div>
             <hr className='hr' />
             <div className='likeContainer'>
-              <div className={this.state.isFavorite ? 'favorite' : 'notFavorite'} onClick={this.handleFavorite}></div>
+              <div className={this.state.isFavorite ? 'favorite' : 'notFavorite'} onClick={this.handleFavorite}>            <ImgLike src={Like} alt="like"/></div>
               <button onClick={() => add(god.Key)}>Add to Fav</button>
-              <div className='dislike'><img src={false} alt="dislike"/></div>
+              <div className='dislike'>
+                <ImgDislike src={Dislike} alt="dislike"/></div>
             </div>
             <div className="accordion">
               <input type="checkbox" id="god-options" className="toggle" />
               <label className="title" htmlFor="god-options">
-              <img src={true} alt="dislike"/>
+
               </label>
               <div className="content">
                 <div>
