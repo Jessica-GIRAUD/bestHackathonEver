@@ -4,7 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import Icone from "../image0.png";
+import Like from "../img/Like.png";
 import Title from "../image1.png";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
@@ -70,10 +70,10 @@ export default function ButtonAppBar() {
             </Link>
           </Menu>
           <Link to={"/"}>
-            <img src={Title} alt="icone site" style={{ height: "56px" }} />
+            <img src={Title} alt="icone site" style={{ height: "100px" }} />
           </Link>
 
-          <img src={Icone} alt="icone site" style={{ height: "56px" }} />
+          <img src={Like} alt="Logo" style={{ height: "56px" }} />
         </Toolbar>
       </AppBar>
     </div>

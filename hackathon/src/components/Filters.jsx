@@ -4,7 +4,6 @@ import FilterAge from "./FilterAge";
 import FilterTag from "./FilterTag";
 import GodCard from "./GodCard";
 import FavoriteCard from "./FavoriteCard";
-import Carousell from "./Carousell";
 import "../styled/Accordion.css";
 import "../styled/Card.css";
 import styled from "styled-components";
@@ -16,17 +15,15 @@ const Select = styled.select`
   border: none;
   width: 250px;
   height: 24px;
-  background-color: #000000;
+  background-color: #ff1493;
   color: white;
   border-radius: 5px;
   outline: none;
-  margin: 80px;
-  padding-bottom: 20px;
+  margin: 110px;
 `;
 
 const Label = styled.label`
-  background: black;
-  color: #ff1493;
+  color: #ffffff;
   font-size: 1em;
   margin: auto;
   padding: 0.25em 1em;
@@ -41,7 +38,7 @@ const WrapFilters = styled.div`
   align-items: center;
   justify-content: space-evenly;
   background: black;
-  opacity: 30%;
+  opacity: 0.9;
 `;
 
 class Filters extends Component {
@@ -78,7 +75,6 @@ class Filters extends Component {
     gods.splice(index, 1);
     this.setState({ data: index });
   };
-
 
   onClickChange = (e) => {
     const newGender = e.target.value;
@@ -120,9 +116,10 @@ class Filters extends Component {
               <option value="Other">Animal</option>
             </Select>
             <br />
+            <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
+            <br />
             <FilterAge onChange={this.onClickAge} />
             <br />
-            <FilterTag tagArr={tagArr} onClick={this.onTypeTag} />
           </WrapFilters>
         </div>
         <div>

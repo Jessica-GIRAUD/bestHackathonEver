@@ -16,6 +16,7 @@ function App() {
       MuiToolbar: {
         root: {
           justifyContent: "space-between",
+          backgroundColor: "#0b0b0b",
         },
         gutters: {
           paddingLeft: 0,
@@ -25,28 +26,30 @@ function App() {
     },
   });
   return (
-    <ThemeProvider theme={theme}>
-      <Router>
-        <div>
-          <NavBar />
-        </div>
-        <Switch>
-          <Route path="/howitworks">
-            <Testit />
-            <Footer />
-          </Route>
-          <Route path="/Favorites">
-            <FavoriteCard />
-          </Route>
-          <Route exact path="/">
-            <Carousell />
-            <Filters />
-            <Footer />
-            <RS />
-          </Route>
-        </Switch>
-      </Router>
-    </ThemeProvider>
+    <div className="body">
+      <ThemeProvider theme={theme}>
+        <Router>
+          <div>
+            <NavBar />
+          </div>
+          <Switch>
+            <Route path="/howitworks">
+              <Testit />
+              <Footer />
+            </Route>
+            <Route path="/Favorites">
+              <FavoriteCard />
+            </Route>
+            <Route exact path="/">
+              <Carousell />
+              <Filters />
+              <Footer />
+              <RS />
+            </Route>
+          </Switch>
+        </Router>
+      </ThemeProvider>
+    </div>
   );
 }
 
