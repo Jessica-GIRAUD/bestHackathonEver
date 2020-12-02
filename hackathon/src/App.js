@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import RS from "./components/RS";
 import Filters from "./components/Filters";

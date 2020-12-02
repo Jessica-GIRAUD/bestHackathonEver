@@ -9,7 +9,7 @@
       "AstroSign": "Barrel",
       "Sports": "Barathon",
       "GodsType": "Party",
-      "Passion": ["Wine", "Drinks", "Sex"]
+      "Passion": ["Wine ", "Drinks ", "Sex "]
     },
     "RegisterSince": "12/12/-1283",
     "PeopleLiked": ["Athena", "Medusa", "Zeus"],
@@ -29,7 +29,7 @@
       "AstroSign": "Pillow Talk",
       "Sports": "Aquagym",
       "GodsType": "Love",
-      "Passion": ["Wine", "Drinks", "Sex"]
+      "Passion": ["Wine ", "Drinks ", "Sex "]
     },
     "RegisterSince": "13/02/0",
     "PeopleLiked": ["Apollo", "Prometheus", "Zeus"],
@@ -49,7 +49,7 @@
       "AstroSign": "Half Full Glass",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Self comtemplating", "Sex"]
+      "Passion": ["Self comtemplating ", "Sex "]
     },
     "RegisterSince": "09/05/201",
     "PeopleLiked": ["Athena", "Gaïa", "Ocypète"],
@@ -69,7 +69,7 @@
       "AstroSign": "bloodshed",
       "Sports": "Hunting",
       "GodsType": "War",
-      "Passion": ["Torturing the poor souls that I encounter"]
+      "Passion": ["Torturing the poor souls that I encounter "]
     },
     "RegisterSince": "01/01/-1152",
     "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
@@ -89,7 +89,7 @@
       "AstroSign": "Archery",
       "Sports": "Hunting",
       "GodsType": "Nature",
-      "Passion": ["Long ballads in the forest", "Hunting"]
+      "Passion": ["Long ballads in the forest ", "Hunting "]
     },
     "RegisterSince": "01/01/-1152",
     "PeopleLiked": ["Aphrodite", "Marsyas", "Eros"],
@@ -109,7 +109,7 @@
       "AstroSign": "Snowball",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Party like you mean it !"]
+      "Passion": ["Party like you mean it ! "]
     },
     "RegisterSince": "05/09/-1138",
     "PeopleLiked": ["Prometheus", "Athena", "Artémis"],
@@ -129,7 +129,7 @@
       "AstroSign": "Colibry",
       "Sports": "Hunting",
       "GodsType": "Fire",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": ["Cooking ", "Swimming "]
     },
     "RegisterSince": "01/01/-2133",
     "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
@@ -149,7 +149,7 @@
       "AstroSign": "Pillow Talk",
       "Sports": "Hunting",
       "GodsType": "Party",
-      "Passion": ["Cooking", "Swimming", "Loving"]
+      "Passion": ["Cooking ", "Swimming ", "Loving "]
     },
     "RegisterSince": "01/01/0001",
     "PeopleLiked": [
@@ -176,7 +176,7 @@
       "AstroSign": "Colibry",
       "Sports": "Hunting",
       "GodsType": "Nature",
-      "Passion": ["Cooking", "Swimming", "Reading"]
+      "Passion": ["Cooking ", "Swimming ", "Reading "]
     },
     "RegisterSince": "03/11/-9999",
     "PeopleLiked": ["Aphrodite", "Poseïdon", "Artémis", "Zeus"],
@@ -196,7 +196,7 @@
       "AstroSign": "Half Full Glass",
       "Sports": "Quidditch",
       "GodsType": "Party",
-      "Passion": ["Animals", "Cooking"]
+      "Passion": ["Animals ", "Cooking "]
     },
     "RegisterSince": "25/10/-1189",
     "PeopleLiked": ["Aphrodite", "Gaïa", "Ligée"],
@@ -216,7 +216,7 @@
       "AstroSign": "Pillow Talk",
       "Sports": "Love",
       "GodsType": "Love",
-      "Passion": ["Love"]
+      "Passion": ["Love "]
     },
     "RegisterSince": "15/08/-3254",
     "PeopleLiked": [
@@ -246,7 +246,7 @@
       "AstroSign": "Barrel",
       "Sports": "Quidditch",
       "GodsType": "Nature",
-      "Passion": ["Cooking", "Swimming", "Creating Life"]
+      "Passion": ["Cooking ", "Swimming ", "Creating Life "]
     },
     "RegisterSince": "00/00/0000",
     "PeopleLiked": ["Poseïdon", "Zeus", "Eros"],
@@ -266,7 +266,7 @@
       "AstroSign": "Pegasus",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": ["Cooking ", "Swimming "]
     },
     "RegisterSince": "17/04/-1267",
     "PeopleLiked": ["Aphrodite", "Ligée", "Artémis", "Ocypète"],
@@ -286,7 +286,7 @@
       "AstroSign": "Snowball",
       "Sports": "Aquagym",
       "GodsType": "Justice",
-      "Passion": ["Sporting", "Cooking"]
+      "Passion": ["Sporting ", "Cooking "]
     },
     "RegisterSince": "08/07/-1652",
     "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
@@ -306,7 +306,7 @@
       "AstroSign": "Half Full Glass",
       "Sports": "Football",
       "GodsType": "Party",
-      "Passion": ["Football", "Drink", "Sex"]
+      "Passion": ["Football ", "Drink ", "Sex "]
     },
     "RegisterSince": "19/06/-1187",
     "PeopleLiked": ["Brontès", "Athena", "Eurytion", "Arès"],
@@ -326,7 +326,7 @@
       "AstroSign": "Colibry",
       "Sports": "Quidditch",
       "GodsType": "Love",
-      "Passion": ["Exotic", "Animals"]
+      "Passion": ["Exotic ", "Animals "]
     },
     "RegisterSince": "22/12/-4521",
     "PeopleLiked": ["Hadès", "Eros", "Oceanos", "Dionysus"],
@@ -346,7 +346,7 @@
       "AstroSign": "Colibry",
       "Sports": "Football",
       "GodsType": "Love",
-      "Passion": ["Sex", "Swimming"]
+      "Passion": ["Sex ", "Swimming "]
     },
     "RegisterSince": "16/10/-1420",
     "PeopleLiked": ["Scylla", "Gaïa", "Eros"],
@@ -366,7 +366,7 @@
       "AstroSign": "Pillow Talk",
       "Sports": "Hunting",
       "GodsType": "Fire",
-      "Passion": ["Baking", "Animals"]
+      "Passion": ["Baking ", "Animals "]
     },
     "RegisterSince": "05/08/-1528",
     "PeopleLiked": ["Aphrodite", "Ocypète", "Prometheus"],
@@ -386,7 +386,7 @@
       "AstroSign": "Pegasus",
       "Sports": "Quidditch",
       "GodsType": "Party",
-      "Passion": ["Dancing", "Reading", "Animals"]
+      "Passion": ["Dancing ", "Reading ", "Animals "]
     },
     "RegisterSince": "16/09/-4531",
     "PeopleLiked": ["Ligée", "Scylla", "Athena"],
@@ -406,7 +406,7 @@
       "AstroSign": "Barrell",
       "Sports": "Football",
       "GodsType": "Justice",
-      "Passion": ["Baking", "Swimming"]
+      "Passion": ["Baking ", "Swimming "]
     },
     "RegisterSince": "12/10/-1387",
     "PeopleLiked": ["Oceanos", "Hermès", "Morphée"],
@@ -426,7 +426,7 @@
       "AstroSign": "Colibry",
       "Sports": "Football",
       "GodsType": "Love",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": ["Cooking ", "Swimming "]
     },
     "RegisterSince": "02/06/-2133",
     "PeopleLiked": ["Ocypète", "Athena", "Zeus"],
@@ -446,7 +446,7 @@
       "AstroSign": "Pillow Talk",
       "Sports": "Hunting",
       "GodsType": "Fire",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": ["Cooking ", "Swimming "]
     },
     "RegisterSince": "29/12/-7531",
     "PeopleLiked": ["Aphrodite", "Athena", "Artémis"],
@@ -466,7 +466,7 @@
       "AstroSign": "Pegasus",
       "Sports": "Hunting",
       "GodsType": "Love",
-      "Passion": ["Sex", "Wine", "Baking"]
+      "Passion": ["Sex ", "Wine ", "Baking "]
     },
     "RegisterSince": "08/06/-6541",
     "PeopleLiked": ["Hermès", "Athena", "Arès"],
@@ -486,7 +486,7 @@
       "AstroSign": "Archery",
       "Sports": "Hunting",
       "GodsType": "Justice",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": ["Cooking ", "Swimming "]
     },
     "RegisterSince": "05/04/-1862",
     "PeopleLiked": ["Athena", "Demeter", "Artémis"],
@@ -506,7 +506,7 @@
       "AstroSign": "Snowball",
       "Sports": "Football",
       "GodsType": "Nature",
-      "Passion": ["Reading", "Swimming"]
+      "Passion": ["Reading ", "Swimming "]
     },
     "RegisterSince": "08/07/-4620",
     "PeopleLiked": ["Scylla", "Eros"],
@@ -526,7 +526,7 @@
       "AstroSign": "Half Full Glass",
       "Sports": "Quidditch",
       "GodsType": "Party",
-      "Passion": ["Cooking", "Swimming"]
+      "Passion": ["Cooking ", "Swimming "]
     },
     "RegisterSince": "04/06/-1184",
     "PeopleLiked": ["Centauros", "Zeus", "Prometheus"],
